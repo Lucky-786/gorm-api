@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	"Assignemnts/APIs/controller"
+	//"Assignemnts/APIs/controller"
 
 	"github.com/gorilla/mux"
-	//"github.com/lucky-786/gorm-api/controller"
+	"github.com/lucky-786/gorm-api/controller"
 )
 
 func Execute() {

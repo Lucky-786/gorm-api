@@ -33,3 +33,13 @@ func main() {
   "gender":"M",
   "password":"12dsdswe",
   "married":"false"*/
+
+/*var users []int    //multi user
+DB.Table("users").Select("id").Scan(&users)
+if (len(users)) > 0 {
+	id := make(map[string][]int)
+	id["ids"] = users
+	json.NewEncoder(w).Encode(id)
+} else {
+	fmt.Fprintf(w, "No data is present in database")
+}*/

@@ -1,11 +1,11 @@
 package repo
 
 import (
-	"Assignemnts/APIs/models"
+	//"Assignemnts/APIs/models"
 	"fmt"
 	"log"
 
-	//"github.com/lucky-786/gorm-api/models"
+	"github.com/lucky-786/gorm-api/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
